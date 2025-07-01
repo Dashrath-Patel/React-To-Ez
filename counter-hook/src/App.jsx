@@ -1,8 +1,7 @@
 import { useState } from 'react'
 
 function App() {
-  let counter =0
-  const [count, setCount] = useState(counter)
+  const [count, setCount] = useState(0)
 
 const addValue=()=>{
   setCount(count+1)
